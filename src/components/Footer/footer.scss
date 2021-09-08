@@ -1,0 +1,39 @@
+.footer {
+  padding: 35px 0;
+  background-color: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+
+  & .container {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & .up {
+    background: #1bbc9b;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 20px;
+    letter-spacing: 1.7px;
+
+    //margin: 45px auto 40px;
+    &:hover {
+      color: #fff;
+      background: #16a086;
+    }
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}

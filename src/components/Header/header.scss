@@ -1,0 +1,53 @@
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+}
+.logo {
+  background: url("../../img/Brand.png") no-repeat;
+  @media (max-width: 700px) {
+    background: url("../../img/b-logo.png") no-repeat;
+  }
+  width: 50%;
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   padding-left: 10%;
+  //   padding-right: 10%;
+  //   padding-top: 2%;
+  padding: 1vh 10vw;
+  @media (max-width: 700px) {
+    padding: 10px 10px;
+  }
+
+  & button {
+    border: none;
+    background-color: #fff;
+    color: #444;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 14px;
+
+    &:hover {
+      background: #1bbc9b;
+      color: #fff;
+      & a {
+        text-decoration: none;
+        color: #fff;
+        background: #1bbc9b;
+      }
+    }
+    & a {
+      text-decoration: none;
+      color: #444;
+    }
+  }
+}
