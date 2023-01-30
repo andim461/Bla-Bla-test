@@ -1,9 +1,9 @@
 # Bla-Bla-test
 
-## Доступен по ссылке: https://andim461.github.io/Bla-Bla-test/
+## https://andim461.github.io/Bla-Bla-test/
 
 ## Available Scripts
 
-### `npm start` - запуск dev-сборки
+### `npm start` - dev
 
-### `npm run build` - запуск prod-сборки
+### `npm run build` - prod
